@@ -1,4 +1,4 @@
-= Anypoint Studio 6.1 with 3.8.1 Runtime Update Site 2 Release Notes
+= Anypoint Studio 6.1 with 3.8.2 Runtime Update Site 2 Release Notes
 
 *October 6, 2016* +
 *Build ID: *
