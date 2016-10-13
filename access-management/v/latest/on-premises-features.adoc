@@ -1,10 +1,10 @@
-= On-Prem Features
+= On-Premises Edition Features
 
 == Overview
 
-This section describes the Access Management features available in Anypoint Platform On-Premises edition.
+This section describes the Access Management features available in Anypoint Platform On-Premises Edition.
 
-Users running Anypoint Platform On-Prem can:
+Users running Anypoint Platform On-Premises can:
 
 . Configure link:/access-management/external-identity#user-management[User Mangement] using link:/external-identity#configure-ldap[LDAP].
 . Configure an <<SMTP,SMTP server>> to send API Manager alerts from your Anypoint Platform On-premises installation

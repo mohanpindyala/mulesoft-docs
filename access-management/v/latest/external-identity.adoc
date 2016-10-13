@@ -5,7 +5,7 @@ Setting up _external identity_ means that you configure an identity provider (Id
 
 This means that you can set up:
 
-* External identities for *user management* using SAML 2.0 or LDAP (on-premises users only)
+* External identities for *user management* using SAML 2.0 or LDAP (On-Premises Edition users only)
 * External identities for *client management* using OAuth 2.0
 * External identities for both *user and client management*
 
@@ -64,7 +64,7 @@ image:external-identity-09ab8.png[]
 
 In order to configure it, use the <<Instructions for SAML Configuration,SAML configuration instructions>> in the section below and consult your IdPs specific documentation for instructions on how to apply this configuration for your intended provider.
 
-Additionally, if you are using Anypoint Platform On-Premises edition, you can <<Configure LDAP,configure LDAP>> to manage users in your organization.
+Additionally, if you are using Anypoint Platform On-Premises Edition, you can <<Configure LDAP,configure LDAP>> to manage users in your organization.
 
 [NOTE]
 --
@@ -209,10 +209,10 @@ image:external-identity-cfb1e.png[]
 
 === Configure LDAP
 
-The following instructions allow you to configure user management using LDAP v3. for your on-premises edition of Anypoint Platform.
+The following instructions allow you to configure user management using LDAP v3. for your On-Premises Edition of Anypoint Platform.
 
 [WARNING]
-User management through LDAP is only available for the On-premises edition.
+User management through LDAP is only available for the On-Premises Edition.
 
 . Go to your *external identity* section in your navigation bar.
 . Click the *LDAP* link from the "To get started, you can configure OpenAM, PingFederate, LDAP or SAML 2.0." message:
@@ -227,7 +227,7 @@ image:external-identity-e39e0.png[]
 |===
 |Field |Description | Example
 |Host |The hostname of your LDAP server. | `ldap://mulesoft.com`
-|Port |The port used to communicate ti your LDAP server |  `3890`
+|Port |The port used to communicate to your LDAP server |  `3890`
 |Self-Signed Cert | Mark this checkbox if you are using a self-signed certificate for your LDAP server |
 |Bind DN | The distinguished names for your bind operations. |  `uid=admin,ou=people,dc=mulesoft,dc=com`
 |Password |The password for the LDAP server | `examplepassphrase`
